@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: pf-profile-microservice
-
-server:
-  servlet:
-    context-path: /profile
