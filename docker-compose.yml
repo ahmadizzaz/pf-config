@@ -10,7 +10,7 @@ services:
     networks:
       - kong-net
     volumes:
-      - ./kong.yml:/usr/local/kong/declarative/kong.yml:ro
+      - /home/ubuntu/pf_microservice/kong.yml:/usr/local/kong/declarative/kong.yml:ro
     environment:
       KONG_DATABASE: "off"
       KONG_DECLARATIVE_CONFIG: "/usr/local/kong/declarative/kong.yml"
