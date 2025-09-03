@@ -1,0 +1,9 @@
+_format_version: "2.1"
+services:
+  # First microservice (no change needed here)
+  - name: profile-service
+    url: http://profile-service:8080
+    routes:
+      - name: profile-service-route
+        paths:
+          - /profile
